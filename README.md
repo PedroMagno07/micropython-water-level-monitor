@@ -2,7 +2,6 @@
 
 An IoT-based system designed to monitor a dam's water level and local humidity, issuing tiered alerts via LEDs, a buzzer, and MQTT messages based on predefined risk levels. This project was developed using MicroPython on an ESP32 board.
 
-![Circuit Diagram](img/circuit-diagram.png)
 
 ## Features
 
