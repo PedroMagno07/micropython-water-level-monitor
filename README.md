@@ -1,14 +1,32 @@
 # ESP32 Dam Alert System
 
-An IoT-based system designed to monitor a dam's water level and local humidity, issuing tiered alerts via LEDs, a buzzer, and MQTT messages based on predefined risk levels. This project was developed using MicroPython on an ESP32 board.
+An IoT-based system to monitor a dam's water level and humidity, issuing alerts via LEDs, a buzzer, and MQTT.
 
+---
+
+## ▶️ Live Simulation
+
+This project is best experienced through the live, interactive simulation on Wokwi. No hardware or setup is required.
+
+**Click the link below to run the project:**
+
+### **[https://wokwi.com/projects/433233310642725889](https://wokwi.com/projects/433233310642725889)**
+
+<br>
+
+**How to interact with the simulation:**
+-   **Change Water Level:** Click the **ultrasonic sensor (HC-SR04)** and move the slider.
+-   **Change Humidity:** Click the **DHT22 sensor** and adjust its slider.
+-   **Send Commands:** Use any MQTT client to send commands (e.g., `modo_manual`) to the `barragem/comandos` topic.
+
+---
 
 ## Features
 
--   **Real-time Monitoring:** Continuously measures water level using an HC-SR04 ultrasonic sensor and humidity with a DHT22 sensor.
+-   **Real-time Monitoring:** Continuously measures water level and humidity.
 -   **Tiered Alert System:** Provides visual and audible alerts based on risk severity.
--   **MQTT Integration:** Allows for remote control and monitoring of the system.
--   **Live Simulation:** Fully interactive and runnable online via Wokwi.
+-   **MQTT Integration:** Allows for remote control and monitoring.
+
 
 ## Hardware Components
 
